@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let filePath = NSBundle.mainBundle().pathForResource("dummyJSON", ofType: "json")
+        let filePath = NSBundle.mainBundle().pathForResource("Freakonomics", ofType: "json")
         let data = NSData.init(contentsOfFile: filePath!)
 
         let jsonDict: Dictionary <String, AnyObject>!
@@ -26,24 +26,6 @@ class ViewController: UIViewController {
         } catch {
             print(error)
         }
-
-
-
-//
-//        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"dummyJSON" ofType:@"json"];
-//        NSData *jsonData = [[NSData alloc] initWithContentsOfFile:filePath];
-//
-//        NSError *error = nil;
-//        NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
-//        
-//        NSLog(@"%@", jsonDict);
-
-
-
-
-
-
-
 
 
     }
