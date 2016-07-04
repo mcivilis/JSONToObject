@@ -30,6 +30,10 @@ class ViewController: UIViewController {
 
     }
 
+    func someFunction(int: Int) -> Int {
+        return 111
+    }
+
 
 
 

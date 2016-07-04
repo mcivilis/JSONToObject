@@ -8,9 +8,24 @@
 
 import Foundation
 
-/**
- * The flatten(_:) function takes a double optional and removes one level of optional-ness. The custom operator >>>= takes an optional of type A to the left, and a function that takes an A as a parameter and returns an optional B to the right.
- */
+
+//The flatten(_:) function takes a double optional and removes one level of optional-ness. The custom operator >>>= takes an optional of type A to the left, and a function that takes an A as a parameter and returns an optional B to the right.
+
+//use my own verbose variables for clarity
+//func flatten <OptionalType> (optional: OptionalType??) -> OptionalType? {
+//    if let result = optional {
+//        return result
+//    }
+//    return nil
+//}
+
+//use my own verbose variables for clarity
+
+//infix operator >>>* {}
+//func >>>* <OptionalType, UnwrappedOptionalType> (optional: OptionalType?, performUnwrapping: OptionalType -> UnwrappedOptionalType) -> UnwrappedOptionalType? {
+//    return flatten(optional.map(performUnwrapping))
+//}
+
 func flatten<A>(x: A??) -> A? {
     if let y = x { return y }
     return nil

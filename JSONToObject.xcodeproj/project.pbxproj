@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2368E081D2B0AC40011CD47 /* Freakonomics.json in Resources */ = {isa = PBXBuildFile; fileRef = A2368E071D2B0AC40011CD47 /* Freakonomics.json */; };
+		A2368E0A1D2B0F370011CD47 /* ModelObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2368E091D2B0F370011CD47 /* ModelObjects.swift */; };
 		A2981CC01D1C74EA006AE9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2981CBF1D1C74EA006AE9F3 /* AppDelegate.swift */; };
 		A2981CC21D1C74EA006AE9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2981CC11D1C74EA006AE9F3 /* ViewController.swift */; };
 		A2981CC51D1C74EA006AE9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC31D1C74EA006AE9F3 /* Main.storyboard */; };
 		A2981CC71D1C74EA006AE9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */; };
 		A2981CCA1D1C74EA006AE9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC81D1C74EA006AE9F3 /* LaunchScreen.storyboard */; };
+		A2981CD21D1C7585006AE9F3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2981CD11D1C7585006AE9F3 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2368E071D2B0AC40011CD47 /* Freakonomics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Freakonomics.json; sourceTree = "<group>"; };
+		A2368E091D2B0F370011CD47 /* ModelObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObjects.swift; sourceTree = "<group>"; };
 		A2981CBC1D1C74EA006AE9F3 /* JSONToObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONToObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2981CBF1D1C74EA006AE9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2981CC11D1C74EA006AE9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2981CC91D1C74EA006AE9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2981CCB1D1C74EA006AE9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2981CD11D1C7585006AE9F3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				A2981CBF1D1C74EA006AE9F3 /* AppDelegate.swift */,
 				A2981CC11D1C74EA006AE9F3 /* ViewController.swift */,
+				A2368E071D2B0AC40011CD47 /* Freakonomics.json */,
+				A2368E091D2B0F370011CD47 /* ModelObjects.swift */,
+				A2981CD11D1C7585006AE9F3 /* Helpers.swift */,
 				A2981CC31D1C74EA006AE9F3 /* Main.storyboard */,
 				A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */,
 				A2981CC81D1C74EA006AE9F3 /* LaunchScreen.storyboard */,
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2368E081D2B0AC40011CD47 /* Freakonomics.json in Resources */,
 				A2981CCA1D1C74EA006AE9F3 /* LaunchScreen.storyboard in Resources */,
 				A2981CC71D1C74EA006AE9F3 /* Assets.xcassets in Resources */,
 				A2981CC51D1C74EA006AE9F3 /* Main.storyboard in Resources */,
@@ -135,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2368E0A1D2B0F370011CD47 /* ModelObjects.swift in Sources */,
 				A2981CC21D1C74EA006AE9F3 /* ViewController.swift in Sources */,
+				A2981CD21D1C7585006AE9F3 /* Helpers.swift in Sources */,
 				A2981CC01D1C74EA006AE9F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +300,7 @@
 				A2981CD01D1C74EA006AE9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
