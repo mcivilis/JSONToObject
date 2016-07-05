@@ -14,7 +14,10 @@
 		A2981CC51D1C74EA006AE9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC31D1C74EA006AE9F3 /* Main.storyboard */; };
 		A2981CC71D1C74EA006AE9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */; };
 		A2981CCA1D1C74EA006AE9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2981CC81D1C74EA006AE9F3 /* LaunchScreen.storyboard */; };
-		A2981CD21D1C7585006AE9F3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2981CD11D1C7585006AE9F3 /* Helpers.swift */; };
+		A2A51FEC1D2BF93600946C3C /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A51FEB1D2BF93600946C3C /* JSONParsing.swift */; };
+		A2A51FEE1D2BFA1400946C3C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A51FED1D2BFA1400946C3C /* Review.swift */; };
+		A2A51FF01D2BFA9400946C3C /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A51FEF1D2BFA9400946C3C /* Author.swift */; };
+		A2A51FF21D2BFB2F00946C3C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A51FF11D2BFB2F00946C3C /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2981CC91D1C74EA006AE9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2981CCB1D1C74EA006AE9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2981CD11D1C7585006AE9F3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A2A51FEB1D2BF93600946C3C /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		A2A51FED1D2BFA1400946C3C /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		A2A51FEF1D2BFA9400946C3C /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		A2A51FF11D2BFB2F00946C3C /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,12 @@
 			children = (
 				A2981CBF1D1C74EA006AE9F3 /* AppDelegate.swift */,
 				A2981CC11D1C74EA006AE9F3 /* ViewController.swift */,
+				A2A51FED1D2BFA1400946C3C /* Review.swift */,
+				A2A51FEF1D2BFA9400946C3C /* Author.swift */,
+				A2A51FF11D2BFB2F00946C3C /* Book.swift */,
 				A2368E071D2B0AC40011CD47 /* Freakonomics.json */,
 				A2368E091D2B0F370011CD47 /* ModelObjects.swift */,
-				A2981CD11D1C7585006AE9F3 /* Helpers.swift */,
+				A2A51FEB1D2BF93600946C3C /* JSONParsing.swift */,
 				A2981CC31D1C74EA006AE9F3 /* Main.storyboard */,
 				A2981CC61D1C74EA006AE9F3 /* Assets.xcassets */,
 				A2981CC81D1C74EA006AE9F3 /* LaunchScreen.storyboard */,
@@ -145,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A51FF01D2BFA9400946C3C /* Author.swift in Sources */,
+				A2A51FEE1D2BFA1400946C3C /* Review.swift in Sources */,
+				A2A51FF21D2BFB2F00946C3C /* Book.swift in Sources */,
 				A2368E0A1D2B0F370011CD47 /* ModelObjects.swift in Sources */,
+				A2A51FEC1D2BF93600946C3C /* JSONParsing.swift in Sources */,
 				A2981CC21D1C74EA006AE9F3 /* ViewController.swift in Sources */,
-				A2981CD21D1C7585006AE9F3 /* Helpers.swift in Sources */,
 				A2981CC01D1C74EA006AE9F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

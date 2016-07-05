@@ -1,16 +1,20 @@
 //
-//  Helpers.swift
+//  JSONParsing.swift
 //  JSONToObject
 //
-//  Created by Maria Civilis on 2016-06-23.
+//  Created by Maria Civilis on 2016-07-05.
 //  Copyright © 2016 Maria Civilis. All rights reserved.
 //
 
 import Foundation
 
+protocol JSONParselable {
+    static func withJSON(json: [String:AnyObject]) -> Self?
+}
 
 // The flatten(_:) function takes a double optional and removes one level of optional-ness
 // The custom operator >>>= takes an optional of type A to the left, and a function that takes an A as a parameter and returns an optional B to the right.
+// http://swanros.com/how-i-deal-with-json-in-swift/
 
 func flatten <Optional> (optional: Optional??) -> Optional? {
     if let unwrappedOptional = optional {
